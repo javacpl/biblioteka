@@ -1,5 +1,7 @@
 <%@include file="./includes/common.jsp"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+
 <!DOCTYPE>
 <html>
     <head>
@@ -44,22 +46,20 @@
                 <select id="kategoria" name="kategoria">
                     <option value="Biografia">Biografia</option>
                     <option value="Fantastyka">Fantastyka</option>
-                    <option value="Historyczna">Historyczna</option>
-                    <option value="Horror">Horror</option>
-                    <option value="Literatura popularnonaukowa">Literatura popularnonaukowa</option>
-                    <option value="Literatura dzieci&#281ca">Literatura dzieci&#281ca</option>
-                    <option value="Klasyka">Klasyka</option>
-                    <option value="Poezja">Poezja</option>
+                    <option value="Historyczna">Historyczna</option> 
                     <option value="Przygodowa">Przygodowa</option>
-                    <option value="Romans">Romans</option>
-                    <option value="Satyra">Satyra</option>
-                    <option value="Sensacja">Sensacja</option>
-                    <option value="Thriller">Thriller</option>
-                    <option value="Poezja">Poezja</option>
-                    <option value="Historyczna">Przygodowa</option>
-                    <option value="Horror">Romans</option>
-                    <option value="Klasyka">Satyra</option>
-                    <option value="Poezja">Thriller</option>
+                    <option value="Podroznicza">Podr&#243&#380nicza</option>
+                    <option value="Krajoznawcza">Krajoznawcza</option>
+                    <option value="Przyrodnicza">Przyrodnicza</option>
+                    <option value="Dokumentalna">Dokumentalna</option>
+                    <option value="Biografie">Biografie</option>
+                    <option value="Pamietniki">Pami&#281tniki</option>
+                    <option value="Dramat">Dramat</option>
+                    <option value="Komedie">Komedie</option>
+                    <option value="Poradniki">Poradniki</option>
+                    <option value="Hobbystyczne">Hobbystyczne</option>
+                    <option value="Naukowe">Naukowe</option>
+                   <option value="Historyczne">Historyczne</option>
                 </select>
             </td>
         </tr>
@@ -81,10 +81,6 @@
 </form>
 
 <table id="t2">
-    <tr><th colspan="3"></th>
-        <th colspan="3" ><center>Dane Autora</center></th>
-        <th colspan="4"></th>
-    </tr>
     <tr>
         <th><a href="biblioteka?sort=0">Id</a></th>
         <th><a href="biblioteka?sort=1">Tytu&#322</a></th>
@@ -113,8 +109,6 @@
         </tr>
     </c:forEach>
 </table>
-<footer>
-    <p id="1">Biblioteka</p>
-</footer>
+
 </body>
 </html>

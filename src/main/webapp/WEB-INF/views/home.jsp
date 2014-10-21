@@ -18,10 +18,8 @@
 			<a href="<c:url value="/biblioteka" />" >Biblioteka</a>
                         
 		</li>
-               <li> <a href="<c:url value="/bibliotekazmien"/>">Biblioteka zmien</a> </li>
+               
 </ul>
-         <footer>
-           <p id="1">Biblioteka</p>
-</footer>
+
 </body>
 </html>
