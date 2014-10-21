@@ -16,32 +16,32 @@
         </h1>
 
         <form:form modelAttribute="ksiazka">
-
+            
             <table id="t1">
                 <tr>
-                    <td><b><font color="#CC0000"><label for="tytul">Tytu&#322:</label></font></b></td> </label></td>
+                    <td><b><font color="##00FF00"><label for="tytul">Tytu&#322:</label></font></b></td> </label></td>
                     <td><form:input path="tytul" required="true"/></td>
                 </tr>
                 <tr>
-                    <td><b><font color="#CC0000"><label for="opis">Opis:</label></font></b></td>      
+                    <td><b><font color="##00FF00"><label for="opis">Opis:</label></font></b></td>      
                     <td><form:input path="opis" required="true"/></td>
                 </tr>
                 <tr>
-                    <td><b><font color="#CC0000"><label for="imieAutora"> Imi&#281: </label></font></b></td>     
+                    <td><b><font color="##00FF00"><label for="imieAutora"> Imi&#281: </label></font></b></td>     
                     <td><form:input path="imieAutora" required="true" /></td>
                 </tr>
-                <td><b><font color="#CC0000"><label for="nazwiskoAutora"> Nazwisko: </label></font></b></td>     
+                <td><b><font color="##00FF00"><label for="nazwiskoAutora"> Nazwisko: </label></font></b></td>     
                 <td><form:input path="nazwiskoAutora" required="true" /></td>
             </tr>
-            <td><b><font color="#CC0000"><label for="pochodzenieAutora"> Pochodzenie Autora: </label></font></b></td>     
+            <td><b><font color="##00FF00"><label for="pochodzenieAutora"> Pochodzenie Autora: </label></font></b></td>     
             <td><form:input path="pochodzenieAutora" required="true" /></td>
         </tr>
         <tr>
-            <td><b><font color="#CC0000"><label for="ilosc">Ilo&#347&#263:</label></font></b></td>     
+            <td><b><font color="#00FF00"><label for="ilosc">Ilo&#347&#263:</label></font></b></td>     
             <td><form:input path="ilosc" required="true"/></td>
         </tr>
         <tr>
-            <td><b><font color="#CC0000"><label for="kategoria">Kategoria:</label></font></b></td> 
+            <td><b><font color="#00FF00"><label for="kategoria">Kategoria:</label></font></b></td> 
             <td>
                 <select id="kategoria" name="kategoria">
                     <option value="Biografia">Biografia</option>
