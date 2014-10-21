@@ -14,25 +14,25 @@
             
         <center> <table>
                <tr> 
-                   <td> Tytu&#322:</td> <td> <form:input path="tytul" />  </td> 
+                   <td><b> <font color="#CC0000">Tytu&#322:</font></b></td> <td> <form:input path="tytul" />  </td> 
 		</tr>  
                 <tr>
-                    <td> 	Opis:</td> <td> <form:input path="opis" />   </td> 
+                    <td><b> <font color="#CC0000"> 	Opis: </font></b> </td> <td> <form:input path="opis" />   </td> 
                 </tr>
                 <tr>   
-                    <td>    Imi&#281 Autora:</td> <td> <form:input path="imieAutora" /> </td>
+                    <td><b> <font color="#CC0000">    Imi&#281 Autora:</font></b> </td> <td> <form:input path="imieAutora" /> </td>
                 </tr>
                 <tr>                  
-                    <td> Nazwisko Autora:</td> <td> <form:input path="nazwiskoAutora" /> </td>
+                    <td><b> <font color="#CC0000"> Nazwisko Autora:</font>,</b> </td> <td> <form:input path="nazwiskoAutora" /> </td>
         </tr>  
         <tr>
-            <td>  Pochodzenie Autora:</td> <td> <form:input path="pochodzenieAutora" /> </td>
+            <td><b> <font color="#CC0000">  Pochodzenie Autora:</font></b> </td> <td> <form:input path="pochodzenieAutora" /> </td>
         </tr>   
         <tr>
-            <td>	Ilo&#347&#263:</td> <td> <form:input path="ilosc" /> </td>
+            <td><b> <font color="#CC0000">	Ilo&#347&#263:</font></b> </td> <td> <form:input path="ilosc" /> </td>
 	 </tr>	
          <tr>
-             <td>	Kategoria:</td> <td> <form:input path="kategoria" /> </td>
+             <td><b> <font color="#CC0000">	Kategoria:</font></b> </td> <td> <form:input path="kategoria" /> </td>
          </tr>	
             </table> <center>
 		<input type="submit" value="Zmie&#324;" />

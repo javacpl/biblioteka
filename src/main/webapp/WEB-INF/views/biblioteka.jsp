@@ -19,29 +19,29 @@
 
             <table id="t1">
                 <tr>
-                    <td><label for="tytul">Tytu&#322:</label></td> </label></td>
+                    <td><b><font color="#CC0000"><label for="tytul">Tytu&#322:</label></font></b></td> </label></td>
                     <td><form:input path="tytul" required="true"/></td>
                 </tr>
                 <tr>
-                    <td><label for="opis">Opis:</label></td>      
+                    <td><b><font color="#CC0000"><label for="opis">Opis:</label></font></b></td>      
                     <td><form:input path="opis" required="true"/></td>
                 </tr>
                 <tr>
-                    <td><label for="imieAutora"> Imi&#281: </label></td>     
+                    <td><b><font color="#CC0000"><label for="imieAutora"> Imi&#281: </label></font></b></td>     
                     <td><form:input path="imieAutora" required="true" /></td>
                 </tr>
-                <td><label for="nazwiskoAutora"> Nazwisko: </label></td>     
+                <td><b><font color="#CC0000"><label for="nazwiskoAutora"> Nazwisko: </label></font></b></td>     
                 <td><form:input path="nazwiskoAutora" required="true" /></td>
             </tr>
-            <td><label for="pochodzenieAutora"> Pochodzenie Autora: </label></td>     
+            <td><b><font color="#CC0000"><label for="pochodzenieAutora"> Pochodzenie Autora: </label></font></b></td>     
             <td><form:input path="pochodzenieAutora" required="true" /></td>
         </tr>
         <tr>
-            <td><label for="ilosc">Ilo&#347&#263:</label></td>     
+            <td><b><font color="#CC0000"><label for="ilosc">Ilo&#347&#263:</label></font></b></td>     
             <td><form:input path="ilosc" required="true"/></td>
         </tr>
         <tr>
-            <td><label for="kategoria">Kategoria:</label></td> 
+            <td><b><font color="#CC0000"><label for="kategoria">Kategoria:</label></font></b></td> 
             <td>
                 <select id="kategoria" name="kategoria">
                     <option value="Biografia">Biografia</option>
